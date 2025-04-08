@@ -1,0 +1,91 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+             background-image: url(https://raw.githubusercontent.com/Bernardo751/SiteTheWalkingDead/refs/heads/main/img/walking-dead-1666584_1920-1024x679.jpg);
+             background-repeat: round;
+
+    font-family: Arial, sans-serif;
+   
+    color: #ffffff;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+header {
+    
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+header, footer{
+     background-color: rgba(105,105,105,0.5);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #0c0263;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.section {
+    padding: 40px 0;
+   
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.section p, .section ul {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+
+footer {
+   
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+ 
+   img{
+    width: 80%;
+    
+}
