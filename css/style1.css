@@ -35,7 +35,7 @@ header h1 {
 }
 header, footer{
      background-color: rgba(105,105,105,0.5);
-    top: 0;
+    
     position: fixed;
 }
 nav ul {
