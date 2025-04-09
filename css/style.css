@@ -23,6 +23,7 @@ body {
 }
 
 
+
 header {
     
     color: #fff;
@@ -90,4 +91,11 @@ footer {
    img{
     width: 80%;
     
+}
+
+header .container{
+    display: flex;
+    justfy-content: space-between;
+    height: 80px;
+    align-items: center;
 }
