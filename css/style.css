@@ -92,4 +92,10 @@ footer {
     
 }
 
+@media (max-width:675px) {
+    header, footer{
+        flex-diretion: column;
+        text-align: center;
+    }
+}
 
